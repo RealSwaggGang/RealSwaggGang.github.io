@@ -120,8 +120,8 @@
     /*the section class="abt" of the about page*/
     .abt{
         justify-content: center;
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 18px;
         color: white;
@@ -163,11 +163,10 @@
     
     #form input{
         position: absolute;
-        border: 3px bold beige;
+        border: 5px bold rgb(4, 84, 138);
         padding: 5px 10px;
-        width: 350px;
+        width: 280px;
         height: 30px;
-        margin-left: 50px;
         background: none;
         
     }
