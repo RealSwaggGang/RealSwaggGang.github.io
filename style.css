@@ -2,15 +2,15 @@
     background-color: #016ea0;
     border: 5px;
     border-radius: 100px;
-    width: 800px;
+    width: 200px;
     color: white;
-    padding: 25px 38px;
+    padding: 20px 33px;
     text-align: center;
     text-decoration: cornsilk;
     display: inline-block;
     font-size: 25px;
-    margin-left: 60px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 60px;
     cursor: pointer;
     }
     /*the top home navigation list*/
@@ -52,9 +52,10 @@
     /* the welcome text h2*/
     .main{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 120px;
+        font-size: 60px;
         color: cornsilk;
-        text-align: center;
+        text-align: left;
+        scroll-margin-left: -60px;
     }
     /* all h2 elements*/
     h2{
@@ -86,12 +87,11 @@
         float: right;
         font-size: 18px;
         border:3px bold cornsilk;
-        margin-top: 0px;
         
     }
     /* the paragraph element on the registeration page*/
     .registeration{
-        margin-left: 50px;
+        text-align: center;
         color: cornsilk;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 18px;
@@ -117,6 +117,7 @@
         color: #016ea0;
         text-decoration: #016ea0;
     }
+    /*the section class="abt" of the about page*/
     .abt{
         justify-content: center;
         margin-left: 150px;
@@ -126,6 +127,11 @@
         color: white;
         font-weight: normal;
     }
+    /*the paragraph on the about page*/
+    #pabt{
+        word-wrap: normal;
+    }
+    /*the h4 with class="about" with the text (welcome to knw abt us) in about page*/
     .about{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 50px;
@@ -133,52 +139,60 @@
         color:#016ea0;
         justify-content: center;
     }
+    /*all h5 elements on all pages*/
     .h5{
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #016ea0;
         font-size: 25px;
-        justify-content: center;
+        text-align: center;
     }
+    /*the section with class="loginsec" on the login page*/
     .loginsec{
         color: white;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 18px;
     }
+    /*the h4 text "welcome back dear valued customer" on the login page.*/
     .login{
         font-size: 50px;
         font-weight: bold;
         color: #016ea0;
         margin-bottom: 20px;
     }
+    /*the form on the login page and the inputs of the form*/
+    
     #form input{
         position: absolute;
         border: 3px bold beige;
         padding: 5px 10px;
         width: 350px;
         height: 30px;
-        margin-left: 340px;
+        margin-left: 50px;
         background: none;
-        border-radius: 10px;
+        
     }
+    /*the label id for email on the login page*/
     #label{
-        margin-left: 340px;
+        margin-left: 50px;
     }
+    /* the whole section of the members page with the class mem*/
     .mem{
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: white;
         font-size: 18px;
-        margin-left: 150px;
-        margin-right: 0px;
     }
+    /*the h4 with the text "RSG members data base" on the members page*/
     .members{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 80px;
         color: #016ea0;
     }
-    .mempic{
+    /*the members picture on the members page
+    #mempic{
         justify-content: center;
         padding: 5px;
-        border:4px bold white;
-    }
-   
+        border:4px bold white !important;
+        margin-right: 50px;
+    }*/
+    
