@@ -2,7 +2,7 @@
     background-color: #016ea0;
     border: 5px;
     border-radius: 100px;
-    width: 200px;
+    width: 400px;
     color: white;
     padding: 20px 33px;
     text-align: center;
@@ -52,7 +52,7 @@
     /* the welcome text h2*/
     .main{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 100px;
+        font-size: 150px;
         color: cornsilk;
         text-align: center;
         scroll-margin-left: -60px;
