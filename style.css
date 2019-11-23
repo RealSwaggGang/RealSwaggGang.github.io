@@ -2,7 +2,7 @@
     background-color: #016ea0;
     border: 5px;
     border-radius: 100px;
-    width: 400px;
+    width: 700px;
     color: white;
     padding: 20px 33px;
     text-align: center;
@@ -55,7 +55,7 @@
         font-size: 150px;
         color: cornsilk;
         text-align: center;
-        scroll-margin-left: -60px;
+        margin-left: -80px;
     }
     /* all h2 elements*/
     h2{
@@ -187,11 +187,7 @@
         font-size: 80px;
         color: #016ea0;
     }
-    /*the members picture on the members page
-    #mempic{
-        justify-content: center;
-        padding: 5px;
-        border:4px bold white !important;
-        margin-right: 50px;
-    }*/
-    
+   /*the note warning on the about page*/
+   .note{
+       color: #016ea0;
+   }
