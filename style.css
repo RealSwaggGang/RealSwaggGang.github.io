@@ -9,7 +9,7 @@
     text-decoration: cornsilk;
     display: inline-block;
     font-size: 25px;
-    margin-left: 0px;
+    margin-left: 80px;
     margin-right: 60px;
     cursor: pointer;
     }
@@ -52,9 +52,9 @@
     /* the welcome text h2*/
     .main{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 50px;
+        font-size: 100px;
         color: cornsilk;
-        text-align: left;
+        text-align: center;
         scroll-margin-left: -60px;
     }
     /* all h2 elements*/
