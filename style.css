@@ -9,7 +9,7 @@
     text-decoration: cornsilk;
     display: inline-block;
     font-size: 25px;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-right: 60px;
     cursor: pointer;
     }
@@ -55,7 +55,7 @@
         font-size: 150px;
         color: cornsilk;
         text-align: center;
-        margin-left: -80px;
+        scroll-margin-left: -80px;
     }
     /* all h2 elements*/
     h2{
